@@ -29,7 +29,9 @@ public class Snack4 {
             if (i < smallerArr.length) {
                 equalArr[i] = smallerArr[i];
             } else {
-                equalArr[i] = rand.nextInt(50);
+                int randNumb = rand.nextInt(50);
+                equalArr[i] = randNumb;
+                System.out.println(randNumb);
             }
         }
 
