@@ -13,6 +13,7 @@ public class Snack1 {
         System.out.println("Inserisci un numero");
         int number = parseInt(scan.nextLine());
 
-        System.out.println((number%2 == 0) ? number : number + 1);
+        System.out.println((number % 2 == 0) ? number : number + 1);
+        scan.close();
     }
 }
