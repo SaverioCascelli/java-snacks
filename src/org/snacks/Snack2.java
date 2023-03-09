@@ -11,8 +11,8 @@ public class Snack2 {
         String[] nameArr = {"Filippo", "Piero", "Andrea", "Mario", "Gianluca"};
         String[] lastNameArr = {"Rossi", "Bianchi", "Stelluti", "Mariani", "Alberti",};
 
+        Random rand = new Random();
         for (int i = 0; i < nameArr.length; i++) {
-            Random rand = new Random();
             int nameIndex = rand.nextInt(nameArr.length);
             int lastNameIndex = rand.nextInt(lastNameArr.length);
 
